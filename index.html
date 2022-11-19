@@ -1,46 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My CV</title>
-</head>
-<body>
-    <h1 title="Абкенов Канат Токтарович"> <center>Kanat Abkenov</center></h1> <img src="\photo1668702597.jpeg" width="200" height="250">
-    <p title="Мобильный телефон"><strong>mob:</strong> +7 708 2 024 024 </p>
-    <p title="Электронный адрес"><strong>e-mail:</strong> rishatqanat@gmail.com</p>
-    <hr/>
-    <p><h2><U title="ОБО МНЕ">ABOUT ME</U></h2></p>
-    <ul>
-      <li title="Дата рождения: 11 мая 1980">Date of Birth: 11.05.1980</li>
-      <li title="Семейное положение: Женат">Marital Status: Maried</li>
-      <li title="Увлечения: Рыбалка">Hobbies: Fishing</li>
-        </ul>
-    <p><h2><U title="ОБРАЗОВАНИЕ">EDUCATION</U></h2></p>
-    <ul>
-      <li title="1994-1998: Казахско-Турецкий лицей">1994-1998: Kazakh-Turkish Liceium</li>
-      <li title="Инновационный Евразийский Университет">1998-2003: Innovational Eurasian Univercity</li>
-      <li title="Алматинская академия экономики и статистики">2018-2020: Almaty Academy of Economics and Statistics</li>
-        </ul>
-        <p><h2><U title="ОПЫТ РАБОТЫ">WORK EXPERIENCE</U></h2></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Period</th>
-          <th>Employer</th>
-          <th>Position</th>
-        </tr>
-      </thead>
-        <tr>
-          <td>2003 - 2005</td>
-          <td><a href="http://ertisdaryn.kz/">Center Daryn</a></td>
-          <td>Manager</td>
-        </tr>
-        <tr>
-          <td>2005 - 2007</td>
-          <td>Deparment of Education</td>
-          <td>Main Expert</td>
-        </tr>
-       </table>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Website</title>
+  </head>
+  <body style="background-color: rgb(155, 170, 155)">
+    <h1>Hello World</h1>
+    <!-- <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"> This is link to documentation</a> -->
+    <br />
+    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">This is link to documentation</a>
+    <p>
+      <a target="_blank" href="cv.html"><button>My CV</button></a>
+    </p>
+    <hr />
+    <br />
+    <form style="background-color: #f1f1f1" action="cv.html">
+      <label for="inputName">Your name:></label>
+      <input type="text" id="inputName" placeholder="Введите Ваше полное имя"/>
+      <br />
+      <br />
+      <label for="your-email">Your Email:></label>
+      <input type="email" id="your-email" placeholder="Введите электронную почту"/>
+      <br />
+      <br />
+      <label for="your-date">Your birthday</label>
+      <input type="date" name="" id="your date" />
+      <br />
+      <br />
+      <select name="groups">
+        <option value="F6">F6 среда и суббота</option>
+        <option value="F5">F5 вторник и пятница</option>
+        <option value="F4">F4 понедельник и четверг</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" value="Отправить"/>
+    </form>
+  </body>
 </html>
