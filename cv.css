@@ -1,0 +1,19 @@
+body {
+  background-color: blanchedalmond;
+}
+#avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+img {
+  width: 50px;
+}
+.groups {
+  color: blue;
+  background-color: rgb(185, 190, 189);
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+h2 {
+  color: brown;
+}

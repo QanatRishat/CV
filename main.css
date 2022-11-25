@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(179, 181, 212);
+  font: 600 20 px arial, helvetica, sans-serif;
+}
+form {
+  background-color: rgb(125, 135, 161);
+}
+input {
+  background-color: rgb(88, 117, 150);
+}
+button {
+  border-color: rgb(32, 180, 32);
+  color: brown;
+  background-color: coral;
+}
+img {
+  width: 200px;
+  border-radius: 20%;
+}

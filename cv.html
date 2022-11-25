@@ -1,46 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>My CV</title>
-</head>
-<body>
-  <h1 title="Абкенов Канат Токтарович"> <center>Kanat Abkenov</center></h1> 
-  <img src="photo1668702597.jpeg" width="200" alt="Kanat Abkenov">
-  <p title="Мобильный телефон"><strong>mob:</strong> +7 708 2 024 024 </p>
-  <p title="Электронный адрес"><strong>e-mail:</strong> rishatqanat@gmail.com</p>
-    <hr size="5" color="green">
-    <p><h2><U title="ОБО МНЕ">ABOUT ME</U></h2></p>
-    <ul>
-      <li title="Дата рождения: 11 мая 1980">Date of Birth: 11.05.1980</li>
-      <li title="Семейное положение: Женат">Marital Status: Maried</li>
-      <li title="Увлечения: Рыбалка">Hobbies: Fishing</li>
-        </ul>
-    <p><h2><U title="ОБРАЗОВАНИЕ">EDUCATION</U></h2></p>
-    <ul>
-      <li title="1994-1998: Казахско-Турецкий лицей">1994-1998: Kazakh-Turkish Liceium</li>
-      <li title="Инновационный Евразийский Университет">1998-2003: Innovational Eurasian Univercity</li>
-      <li title="Алматинская академия экономики и статистики">2018-2020: Almaty Academy of Economics and Statistics</li>
-        </ul>
-        <p><h2><U title="ОПЫТ РАБОТЫ">WORK EXPERIENCE</U></h2></p>
-    <table border="1">
+    <link rel="stylesheet" href="cv.css" />
+  </head>
+  <body>
+    <h1 title="Абкенов Канат Токтарович">Kanat Abkenov</h1>
+    <img id="avatar" src="photo1668702597.jpeg" alt="photo" />
+    <a href="https://sapsan-code.kz/" target="_blank"
+      ><img
+        id="sapsan"
+        src="https://sapsan-code.kz/img/sapsan_logo.png"
+        alt="logo_sapsan-code"
+      />
+    </a>
+
+    <hr size="5" noshade color="grey" />
+    <p>Here is <strong>short</strong> information <em>abot me</em></p>
+    <br />
+    <h2 class="groups">Experience</h2>
+    <table border="1" bordercolor="blue">
       <thead>
         <tr>
-          <th>Period</th>
-          <th>Employer</th>
-          <th>Position</th>
+          <th title="Период работы">Period</th>
+          <th title="Место работы">Employer</th>
+          <th title="Должность">Position</th>
         </tr>
       </thead>
-        <tr>
-          <td>2003 - 2005</td>
-          <td><a href="http://ertisdaryn.kz/">Center Daryn</a></td>
-          <td>Manager</td>
-        </tr>
-        <tr>
-          <td>2005 - 2007</td>
-          <td>Deparment of Education</td>
-          <td>Main Expert</td>
-        </tr>
-       </table>
-</body>
+      <tr>
+        <th>2002-2004</th>
+        <th title="Центр талантливой молодежи Ертіс Дарыны">
+          Center for gifted children Ertis Daryny
+        </th>
+        <th title="Менеджер">Manager</th>
+      </tr>
+      <tr>
+        <th>2004-2007</th>
+        <th title="Управление образования Павлодарской области">
+          Deparment of Education of Pavlodar region
+        </th>
+        <th title="Главный специалист">Main Expert</th>
+      </tr>
+    </table>
+
+    <hr />
+    <h2>Education</h2>
+    <ol>
+      <li title="Казахско-Турецкий лицей">
+        <a href="https://pavlodarboysbilim.edupage.org/" target="_blank"
+          >Kazakh-Turkish Lyceum</a
+        >
+      </li>
+      <li title="Инновационный Евразийский университет">
+        <a href="https://ineu.edu.kz/en/" target="_blank"
+          >Innovative University of Eurasia</a
+        >
+      </li>
+      <li title="Алматинская академия экономики и статистики">
+        <a href="https://aesa.kz/" target="_blank"
+          >Academy Economics and Statistics</a
+        >
+      </li>
+    </ol>
+    <hr />
+    <h2 title="Увлечения">Hobby</h2>
+    <ul type="circle">
+      <li title="Рыбалка">Fishing</li>
+      <li title="Путешествия">Traveling</li>
+    </ul>
+    <hr />
+  </body>
 </html>
