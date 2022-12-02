@@ -1,11 +1,12 @@
 body {
   background-color: blanchedalmond;
 }
-.containet {
-  width: 600px;
+.container {
+  width: 500px;
   margin: auto;
   padding: 30px;
 }
+
 .info {
   border-radius: 25px;
   padding: 20px;
@@ -23,11 +24,32 @@ body {
   margin: 10px 20px 25px 15px;
 }
 #avatar {
-  width: 200px;
-  border-radius: 50%;
+  width: 150px;
+  border-radius: 100%;
+}
+#avatar:hover {
+  width: 300px;
+  transition: 1s;
 }
 img {
-  width: 50px;
+  display: inline;
+  width: 200px;
+}
+img:hover {
+  width: 100px;
+  transform: rotate(180deg);
+  transition: width 1s;
+}
+@media (max-width: 500px) {
+  .container {
+    display: block;
+    text-align: center;
+    background-color: rgb(135, 135, 179);
+  }
+  #avatar {
+    width: 50px;
+    border-radius: 100%;
+  }
 }
 .groups {
   color: blue;
@@ -55,4 +77,23 @@ a:active {
 
 a:visited {
   color: grey;
+}
+p {
+  animation-name: my-animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes my-animation {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  50% {
+    color: aqua;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }

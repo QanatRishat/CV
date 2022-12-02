@@ -17,3 +17,30 @@ img {
   width: 200px;
   border-radius: 20%;
 }
+.parent {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  /* position: static; */
+
+  /* margin-top: 40px; */
+  /* position: absolute; */
+
+  /* position: relative; */
+  /* height: 500px;
+  width: 500px; */
+}
+/* absolute child > staic/default parent */
+/* absolute shild < relative/absolute parent */
+/* fixed child > relative/absolute parent */
+/* absolute depends on content, relative don't */
+
+.child {
+  /*width: 500px;
+  height: 50px;*/
+  background: blue;
+  border: 1px solid rgb(243, 5, 5);
+  padding: 20px;
+  margin: 5px;*/
+  /*position: static;*/
+}
